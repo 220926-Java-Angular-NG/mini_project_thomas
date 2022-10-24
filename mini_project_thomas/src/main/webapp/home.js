@@ -25,6 +25,11 @@ Email.innerHTML = `${currentUser.email} `
 info.appendChild(Email);
 info.append(br);
 
+let ZOdiac = document.createElement("h3");
+ZOdiac.innerHTML = `${currentUser.zodiac} `
+info.appendChild(ZOdiac);
+info.append(br);
+
 // let firstName = document.createElement("h3");
 // firstName.innerHTML = `${currentUser.firstname} `
 // info.appendChild(firstName);
