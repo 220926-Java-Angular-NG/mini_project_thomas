@@ -1,0 +1,17 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+
+body {
+    height: 800px;
+    background-image: linear-gradient(to bottom right, rgb(166, 224, 240), rgb(242, 163, 99));
+    font-family: 'Open Sans',serif;
+  }
+
+  #header{
+    color: rgb(173, 103, 103);
+    text-align: center;
+    text-shadow: 2px 2px 5px rgb(200, 151, 115);
+  }
+
+  #update-mood{
+    opacity: 30%;
+  }
